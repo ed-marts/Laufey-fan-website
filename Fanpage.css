@@ -28,3 +28,33 @@ body {
 .header img {
     display: block; 
 }
+.header_tab img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ; /* Adds breathing room around the logo */
+    width: 80px;
+    filter: invert(100%);
+
+}
+.header_tab {
+    background-color: #1c3652; /* Light background for the header */
+    top: 0;
+    left: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header_tab  {
+    margin: 0; /* Removes the gap above your logo */
+}
+
+.header h1 {
+       margin: 0;   
+}
+.header img {
+    display: block; 
+}
