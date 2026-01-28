@@ -1,49 +1,67 @@
-.header_tab img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px ; /* Adds breathing room around the logo */
-    width: 80px;
-    filter: invert(100%);
-
-}
+/* Fanpage.css */
 .header_tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #1c3652;
     position: sticky;
-    background-color: #1c3652; /* Light background for the header */
     top: 0;
-    left: 0;
-    margin: 0; /* Removes the gap above your logo */
+    z-index: 1000;
 }
+
+
 
 /* Example for an h1 tag inside the header */
 header h1 {
     margin-top: 0;
 }
 
-.header_tab img {
-    display: flex;
+.header_tab img {   
     justify-content: center;
     align-items: center;
-    padding: 20px ; /* Adds breathing room around the logo */
-    width: 80px;
+    width: 70px;          /* smaller logo */
+    padding: 23px 10px;    /* vertical | horizontal */
+
+    padding-bottom: 2px;
+    display: block;
     filter: invert(100%);
+
 }
 
-.main_nav a {
-    padding: 10px 16px;
-    border-radius: 8px;
-    text-decoration: none;
-    background: #222;
+
+ 
+.main_nav {
+    background-color: #1c3652;
+}
+
+.main_nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+.main_nav ul li a {
     color: white;
-    font-weight: 500;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    margin: 0 10px;
+    
+    
 }
-
-
 
 
 .hero {
     height: 80vh; /* NOT full page */
-    background-image: url("LaufeyBG.png");
+    background-image: url("Laufeyhero.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
