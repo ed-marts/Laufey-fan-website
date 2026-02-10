@@ -5,9 +5,9 @@
     justify-content: space-between;
     padding: 0 20px;
     background-color: #1c3652;
-    position: sticky;
     top: 0;
     z-index: 1000;
+    position: sticky;
 }
 
 
@@ -66,7 +66,7 @@ header h1 {
     background-position: center;
     background-repeat: no-repeat;
 
-    position: sticky;
+    position: relative;
     top: 0;
     z-index: 10;
 
@@ -77,11 +77,24 @@ header h1 {
 
 .hero-content {
     color: white;
+    font-size: 30px;
 
 }
 
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
 
+}
 
+.music {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+}
   
 
 
