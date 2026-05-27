@@ -90,15 +90,23 @@ header h1 {
 }
 
 .music {
+    bottom: 0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 30px;
     flex-wrap: wrap;
     gap: 20px;
 }
-  
+
+
+.music img:hover {
+    transform: scale(1.02);
+    transition: transform 0.6s ease;
+}   
+
 
 .music img {
     width: 200px;
