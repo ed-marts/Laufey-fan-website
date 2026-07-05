@@ -1,0 +1,157 @@
+/* Fanpage.css */
+.header_tab {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #1c3652;
+    top: 0;
+    z-index: 1000;
+    position: sticky;
+}
+
+
+
+/* Example for an h1 tag inside the header */
+header h1 {
+    margin-top: 0;
+}
+
+.header_tab img {   
+    justify-content: center;
+    align-items: center;
+    width: 70px;          /* smaller logo */
+    padding: 23px 10px;    /* vertical | horizontal */
+
+    padding-bottom: 2px;
+    display: block;
+    filter: invert(100%);
+
+}
+
+
+ 
+.main_nav {
+    background-color: #1c3652;
+}
+
+.main_nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+
+
+.main_nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    margin: 0 10px;
+    
+    
+}
+
+
+.hero {
+    height: 80vh; /* NOT full page */
+    background-image: url("Laufeyhero.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    position: relative;
+    top: 0;
+    z-index: 10;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    color: white;
+    font-size: 30px;
+
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+
+}
+
+.music {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.music img:hover {
+    transform: scale(1.02);
+    transition: transform 0.6s ease;
+}   
+
+
+.music img {
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+body  {
+    margin: 0;
+    padding: 0;
+    background-color: #fffcf2;
+}
+
+
+body p {
+    font-family: 'Arial', sans-serif;
+
+    line-height: 1.6;
+    margin: 16px;
+    width: 1000px;
+    text-align: left;
+}
+
+body h2 {
+    font-family: 'Arial', sans-serif;
+
+    margin: 12px;
+}
+
+
+
+
+
+footer {
+    background-color: #1c3652;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer a {
+    color: white;
+
+    font-family: 'Arial', sans-serif;
+}

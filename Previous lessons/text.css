@@ -1,0 +1,30 @@
+.rt{
+    color: gray;
+}
+
+p.rt{
+    color: rgb(192, 3, 3);
+    background-color: salmon;
+}
+
+#content{
+    background-color: lightgray;
+    padding: 20 px;
+
+}
+div p.rt{
+    color: blue;
+    background-color: yellow;
+}
+
+a[href]{
+    color: white;
+    background-color: #FF0000;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* a[href*="xxxxxx"]    If it contains */
+
+/* a[href$="xxxxxx"]    If it ends with */
