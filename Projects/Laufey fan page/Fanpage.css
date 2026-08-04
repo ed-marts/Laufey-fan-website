@@ -1,4 +1,8 @@
 /* Fanpage.css */
+
+html {
+    scroll-behavior: smooth;
+}
 .header_tab {
     display: flex;
     align-items: center;
@@ -180,3 +184,16 @@ footer a {
     font-family: 'Arial', sans-serif;
 }
 
+
+
+
+
+
+
+
+
+
+
+.catalogue {
+    font-family: 'Arial', sans-serif;
+}

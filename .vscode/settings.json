@@ -1,5 +1,0 @@
-{
-    "github.copilot.renameSuggestions.triggerAutomatically": false,
-    "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
-    "github.copilot.chat.tools.memory.enabled": true
-}
